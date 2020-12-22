@@ -1,6 +1,6 @@
 # Buscador de Imagenes replica de pixabay
 
-## Una versión básica hecha en React para buscar imagenes 
+## Una versión hecha en React para buscar imagenes 
 
 - Live -> https://upbeat-archimedes-7b0983.netlify.app/
 
