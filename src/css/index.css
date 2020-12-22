@@ -1,0 +1,9 @@
+.card {
+    max-height: 290px !important;
+    min-height: 290px !important;
+}
+
+.card-img,
+.card-img-top {
+    max-height: 121px !important;
+}

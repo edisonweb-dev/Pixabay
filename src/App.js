@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Formulario from './components/Formulario'
 import ListadoImagenes from './components/ListadoImagenes'
+import './css/index.css'
+
 
 function App() {
 
-  const [busqueda, guardarBusqueda] = useState('');
+  const [busqueda, guardarBusqueda] = useState('cafe');
   const [imagenes, guardarImagenes] = useState([]);
 
   const [paginaactual, guardarPaginaActual] = useState(1);
@@ -62,7 +64,7 @@ function App() {
         <Formulario guardarBusqueda={guardarBusqueda} />
       </div>
 
-      <div className="row justify-content-center">
+      <div className="row justify-content-center mb-4">
         <ListadoImagenes imagenes={imagenes} />
 
 
